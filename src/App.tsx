@@ -1,11 +1,12 @@
 import './App.css'
-import {Counter} from "./Counter.tsx";
+import {Counter2} from "./Counter2.tsx";
 
 function App() {
 
   return (
     <>
-      <Counter initialValue={0}/>
+      {/*<Counter initialValue={0}/>*/}
+        <Counter2 initialValue={0}/>
     </>
   )
 }
