@@ -1,5 +1,5 @@
 import './App.css'
-import {UseMemoSample} from "./components/UseMemoSample.tsx";
+import {ImageUploader} from "./components/ImageUploader.tsx";
 
 function App() {
 
@@ -7,7 +7,8 @@ function App() {
     <>
       {/*<Counter initialValue={0}/>*/}
       {/*  <Counter2 initialValue={0}/>*/}
-        <UseMemoSample />
+      {/*  <UseMemoSample />*/}
+        <ImageUploader />
     </>
   )
 }
