@@ -1,5 +1,5 @@
 import './App.css'
-import {Parent} from "./components/Parent.tsx";
+import {Parent2} from "./components/Parent2.tsx";
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       {/*<Counter initialValue={0}/>*/}
       {/*  <Counter2 initialValue={0}/>*/}
-        <Parent />
+        <Parent2 />
     </>
   )
 }
