@@ -1,5 +1,5 @@
 import './App.css'
-import {Parent2} from "./components/Parent2.tsx";
+import {UseMemoSample} from "./components/UseMemoSample.tsx";
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       {/*<Counter initialValue={0}/>*/}
       {/*  <Counter2 initialValue={0}/>*/}
-        <Parent2 />
+        <UseMemoSample />
     </>
   )
 }
